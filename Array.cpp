@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 void incert_array(int arr[],int &n){
@@ -93,11 +92,7 @@ int binary_search(int arr[],int n,int x){
             first = mid+1;
         }
     }
-
     return -1;
-
-    
-
 }
 
 int binary_search_rec(int arr[],int first , int last ,int x){
